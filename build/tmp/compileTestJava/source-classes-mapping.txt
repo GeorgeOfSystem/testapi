@@ -1,0 +1,70 @@
+apiRest/factoryRequest/Delete.java
+ apiRest.factoryRequest.Delete
+apiRest/factoryRequest/Put.java
+ apiRest.factoryRequest.Put
+apiRest/utilsJson/JsonHelper.java
+ apiRest.utilsJson.JsonHelper
+apiRest/factoryRequest/RequestInformation.java
+ apiRest.factoryRequest.RequestInformation
+apiRest/factoryRequest/IRequest.java
+ apiRest.factoryRequest.IRequest
+apiRest/runner/Runner.java
+ apiRest.runner.Runner
+apiRest/configuration/Config.java
+ apiRest.configuration.Config
+apiRest/factoryRequest/Patch.java
+ apiRest.factoryRequest.Patch
+apiRest/factoryRequest/Post.java
+ apiRest.factoryRequest.Post
+apiRest/factoryRequest/FactoryRequest.java
+ apiRest.factoryRequest.FactoryRequest
+apiRest/factoryRequest/Get.java
+ apiRest.factoryRequest.Get
+webUI/factoryBrowser/FireFox.java
+ webUI.factoryBrowser.FireFox
+webUI/testClean/TestBaseTodoLy.java
+ webUI.testClean.TestBaseTodoLy
+webUI/testClean/LoginTest.java
+ webUI.testClean.LoginTest
+webUI/controls/CheckBox.java
+ webUI.controls.CheckBox
+webUI/testClean/CRUDItemTest.java
+ webUI.testClean.CRUDItemTest
+webUI/todoLy/LoginModal.java
+ webUI.todoLy.LoginModal
+webUI/controls/Control.java
+ webUI.controls.Control
+webUI/singletonSession/Session.java
+ webUI.singletonSession.Session
+webUI/todoLy/CenterSection.java
+ webUI.todoLy.CenterSection
+webUI/todoLy/LeftSection.java
+ webUI.todoLy.LeftSection
+webUI/testClean/CRUDProjectTest.java
+ webUI.testClean.CRUDProjectTest
+webUI/todoLy/MenuSection.java
+ webUI.todoLy.MenuSection
+webUI/testClean/CreateProjectTest.java
+ webUI.testClean.CreateProjectTest
+webUI/controls/Label.java
+ webUI.controls.Label
+webUI/factoryBrowser/IBrowser.java
+ webUI.factoryBrowser.IBrowser
+webUI/factoryBrowser/Edge.java
+ webUI.factoryBrowser.Edge
+webUI/factoryBrowser/FactoryBrowser.java
+ webUI.factoryBrowser.FactoryBrowser
+webUI/factoryBrowser/Chrome.java
+ webUI.factoryBrowser.Chrome
+webUI/controls/Image.java
+ webUI.controls.Image
+webUI/controls/TextBox.java
+ webUI.controls.TextBox
+webUI/controls/Button.java
+ webUI.controls.Button
+webUI/todoLy/MainPage.java
+ webUI.todoLy.MainPage
+apiRest/runner/MyStepdefs.java
+ apiRest.runner.MyStepdefs
+webUI/factoryBrowser/BrowserStack.java
+ webUI.factoryBrowser.BrowserStack

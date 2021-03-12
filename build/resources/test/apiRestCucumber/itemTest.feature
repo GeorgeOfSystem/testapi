@@ -55,5 +55,4 @@ Feature: Item
      "ItemOrder":null,"Priority":4,"LastSyncedDateTime":"IGNORE","Children":[],"DueDateTime":null,
      "CreatedDate":"IGNORE","LastCheckedDate":null,"LastUpdatedDate":"IGNORE","Deleted":true,"Notes":"",
      "InHistory":false,"SyncClientCreationId":null,"DueTimeSpecified":true,"OwnerId":677007}
-
     """

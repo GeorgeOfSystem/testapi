@@ -17,7 +17,13 @@ Feature: Token
     """
 
     #DELETE
-    When I send a request DELETE to url https://todo.ly/api/authentication/token.json with json
-    """
-    """
+    When I send a DELETE request with ID_TOKEN to http://todo.ly/api/authentication/token.json
     Then I expected response code 200
+    And I expected the response body
+    """
+    {
+    "TokenString": ID_TOKEN,
+    "UserEmail": "jorge99@jorge99.com",
+    "ExpirationTime": "IGNORE"
+    }
+    """

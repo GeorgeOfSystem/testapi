@@ -13,6 +13,8 @@ import java.util.HashMap;
 import java.util.Map;
 import io.cucumber.java.en.Then;
 
+import static io.restassured.RestAssured.given;
+
 public class MyStepdefs {
 
     Response response;
@@ -56,5 +58,11 @@ public class MyStepdefs {
         }
 
         return value;
+    }
+
+    @When("I send a DELETE request with {} to {}")
+    public void iSendADeleteRequestWithTokenIDHeader(String tokenValue, String url) {
+        response = given().header("Token", replaceAllData(tokenValue)).log().all().when().delete(url);
+        response.then().log().all();
     }
 }
